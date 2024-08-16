@@ -1,0 +1,368 @@
+@media ( max-width: 1400px)
+	.menu
+		&_item
+			padding-right: 25px
+		&_link
+			font-size: 14px
+@media ( max-width: 1200px)
+	.menu
+		padding: 15px 60px
+		&_item
+			padding-right: 16px
+	.header_bottom_phone
+		font-size: 18px
+	h1
+		font-size: 50px
+	.promo
+		&_subheader
+			font-size: 31px
+	.reasons
+		.reason
+			flex-wrap: wrap
+			justify-content: center
+			align-content: flex-start
+			&_descr_header
+				margin-top: 14px
+				text-align: center
+			&_descr_text
+				text-align: center
+	.mobile
+		&_item
+			width: 300px
+	.footer_nav_light
+		padding: 0 70px
+	.choice_top
+		.car_box
+			bottom: -50%
+@media ( max-width: 992px)
+	.menu
+		padding: 15px 22px
+		&_item
+			padding-right: 11px
+			.menu_link
+				font-size: 12px
+	.header_bottom
+		min-height: 0
+		padding-bottom: 7px
+		.icon_text
+			font-size: 12px
+		&_icon
+			margin-top: 15px
+		&_call
+			margin-top: 15px
+		&_btn
+			margin-top: 15px
+	h1
+		font-size: 45px
+	.promo_description
+		font-size: 15px
+	.reasons
+		.title
+			font-size: 33px
+		.reason
+			padding-left: 45px
+			&_descr_text
+				width: 320px
+				font-size: 13px
+	.mobile
+		.subtitle
+			font-size: 17px
+		&_item
+			height: 260px
+	.choice_top
+		.car_box
+			bottom: -40%
+	.requirement 
+		.row 
+			.requirement_list
+				margin-right: 30px
+				&_item
+					font-size: 15px
+					line-height: 20px
+			.requirement_description
+				br
+					display: none
+	.footer
+		.download_app
+			flex-direction: column
+			top: 11px
+			a
+				margin-top: 7px
+		.social_media
+			flex-wrap: wrap
+			width: 100px
+			top: 11px
+			a
+				margin-top: 7px
+		&_nav_light
+			padding: 0 55px
+@media ( max-width:  767px)
+	nav
+		position: relative
+		.burger
+			position: absolute
+			display: block
+			width: 26px
+			height: 12px
+			right: 11px
+			top: 50%
+			transform: translateY(-50%)
+			span
+				display: block
+				height: 2px
+				background-color: #fff
+				margin-top: 2px
+				transition: 0.3s all
+			&_active
+				margin-top: 7px
+				span
+					margin-top: -2px
+					&:nth-child(1)
+						transform: translateY(3px) rotate(-45deg)
+					&:nth-child(2)
+						display: none
+					&:nth-child(3)
+						transform: translateY(3px) rotate(45deg)
+						
+		.menu
+			left: -1000px
+			flex-direction: column
+			width: 50%
+			background-color: rgba(0, 0, 0, 0.8)
+			position: fixed
+			height: 100vh
+			transition: 0.3s all
+			margin-top: 0
+			justify-content: space-evenly
+			padding-right: 0
+			&_item
+				border: none
+				width: 100%
+				.menu_link
+					font-size: 18px
+					display: block
+					padding: 5px 0
+		.menu_active
+			left: 0px
+	.header_bottom
+		.xs-hiden
+			display: none
+		.header_btn_block
+			.xs-visible
+				display: block
+				margin-top: 15px
+				line-height: 15px
+			.header_bottom_btn
+				display: block
+				float: right
+				margin-top: 8px
+				width: 160px
+				height: 40px
+				&:hover
+					box-shadow: none
+					background: $bluecolor
+		.icon_text	
+			font-size: 14px
+	h1
+		font-size: 35px
+	.promo
+		&_subheader
+			font-size: 23px
+		&_btn
+			&:hover
+				box-shadow: none
+				background: $bluecolor
+	.reasons
+		.title
+			font-size: 27px
+		.reason
+			padding-left: 12px
+			&_descr_text
+				font-size: 14px
+	.mobile
+		padding: 20px 0 40px
+		.title
+			font-size: 30px
+		&_item_titel
+			font-size: 21px
+	.choice
+		&_top
+			padding: 20px 0
+			.title
+				font-size: 30px
+			.subtitle
+				margin-top: 25px
+			.car_box
+				bottom: 5%
+				.car_text
+					color: #FFFFFF
+		&_bottom
+			display: none
+	.requirement
+		padding: 20px 0 40px 0
+		.row
+			.requirement_title_pink
+				text-align: center
+				margin: 0 auto
+			.requirement_title_blue
+				margin-top: 15px
+				text-align: center
+	.location
+		min-height: 0
+		height: 460px
+		&_show_all
+			margin-top: 200px
+	.footer
+		padding-bottom: 80px
+		.social_media
+			top: 125px
+			width: 170px
+			flex-wrap: nowrap
+			left: 50%
+			transform: translateX(-50%)
+			padding-left: 0
+		.download_app
+			top: 165px
+			flex-direction: row
+			left: 50%
+			transform: translateX(-50%)
+			right: 40px
+@media ( max-width: 575px)
+	header
+		nav
+			min-height: 50px
+			.menu
+				width: 85%
+				
+		.header_bottom
+			margin-top: 50px
+			padding-bottom: 10px
+			.row
+				align-items: center
+				.icon_text
+					display: none
+				.header_btn_block
+					.xs-visible
+						margin-top: 12px
+						font-size: 12px
+					.header_bottom_btn
+						width: 110px
+						height: 22px
+						font-size: 9px
+						margin-top: 6px
+	.promo
+		padding: 100px 0 35px 0
+		min-height: 400px
+		&_subheader
+			font-size: 20px
+			line-height: 23px
+		&_description
+			display: none
+		&_btn
+			margin-top: 73px
+			font-size: 16px
+			line-height: 50px
+			width: 210px
+			height: 50px
+	h1		
+		font-size: 30px
+		line-height: 35px
+	.reasons
+		padding: 20px 0 40px 0
+		.title
+			font-size: 16px
+			line-height: 16px
+		.reason
+			margin-top: 24px
+			&_icon
+				margin-right: 0
+			&_descr
+				&_header
+					font-size: 16px
+					line-height: 21px
+				&_text
+					font-size: 15px
+					line-height: 21px
+	.mobile
+		.title
+			font-size: 16px
+			line-height: 16px
+			margin-top: 14px
+		.subtitle
+			font-size: 14px
+			line-height: 21px
+			margin-top: 10px
+	.choice
+		&_top
+			min-height: 400px
+			.title
+				display: none
+			.subtitle
+				display: none
+			.car_box
+				bottom: 55px
+				.uber_car
+					width: 300px
+					height: 190px
+				.car_text
+					font-size: 17px
+					line-height: 24px
+					margin-top: 23px
+	.requirement
+		.title
+			font-size: 16px
+			line-height: 16px
+			margin-top: 16px
+		.row
+			margin-top: 0
+			.requirement_title_blue
+				font-size: 18px
+				line-height: 24px
+				margin-top: 30px
+			.requirement_title_pink
+				font-size: 18px
+				line-height: 24px
+				margin-top: 30px
+			.requirement_list
+				margin-top: 0
+				padding-left: 0
+				&_item
+					margin-top: 5px
+					font-size: 14px
+					line-height: 16px
+			.requirement_description
+				font-size: 14px
+				line-height: 16px
+				margin-top: 15px
+	.location
+		padding-top: 26px
+		height: 360px
+		.title
+			font-size: 16px
+			line-height: 16px
+		.subtitle
+			font-size: 14px
+			line-height: 21px
+			margin-bottom: 0
+		.location_show_all
+			margin-top: 211px
+			font-size: 15px
+			line-height: 15px
+	.footer
+		.download_app
+			right: revert-layer
+			top: 155px
+		.blue_line
+			width: 255px
+		&_nav
+			margin-top: 21px
+			&_item
+				font-size: 11px
+		&_nav_light
+			padding: 0 5px
+			&_item
+				font-size: 10px
+		.language
+			margin-top: 10px
+		.social_media
+			top: 112px
